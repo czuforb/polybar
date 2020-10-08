@@ -1,0 +1,7 @@
+[module/spotify]
+type = custom/script
+interval = 1
+format-prefix = " "
+format = <label>
+exec = python $HOME/.config/polybar/scripts/spotify.py -f '{artist}: {song}'
+format-underline = #1db954
